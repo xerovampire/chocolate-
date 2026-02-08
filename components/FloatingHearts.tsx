@@ -36,22 +36,22 @@ const FloatingHearts: React.FC = () => {
         />
       </div>
 
-      {/* Bottom Left Cluster */}
-      <div className="absolute bottom-32 left-8 animate-float" style={{ animationDelay: '1.5s' }}>
+      {/* Bottom Left Cluster - Moved down */}
+      <div className="absolute bottom-16 left-8 animate-float" style={{ animationDelay: '1.5s' }}>
         <img
           src={ASSETS.hearts}
           alt="heart"
           className="w-28 h-auto rotate-12 opacity-90 drop-shadow-md"
         />
       </div>
-      <div className="absolute bottom-20 left-20 animate-float" style={{ animationDelay: '0.2s' }}>
+      <div className="absolute bottom-4 left-20 animate-float" style={{ animationDelay: '0.2s' }}>
          <img
           src={ASSETS.hearts}
           alt="heart"
           className="w-14 h-auto -rotate-12 opacity-80"
         />
       </div>
-      <div className="absolute bottom-48 left-4 animate-float" style={{ animationDelay: '4s' }}>
+      <div className="absolute bottom-32 left-4 animate-float" style={{ animationDelay: '4s' }}>
         <img
           src={ASSETS.hearts}
           alt="heart"
@@ -59,15 +59,15 @@ const FloatingHearts: React.FC = () => {
         />
       </div>
 
-      {/* Bottom Right Cluster */}
-      <div className="absolute bottom-24 right-8 animate-float" style={{ animationDelay: '2.5s' }}>
+      {/* Bottom Right Cluster - Moved down */}
+      <div className="absolute bottom-8 right-8 animate-float" style={{ animationDelay: '2.5s' }}>
         <img
           src={ASSETS.hearts}
           alt="heart"
           className="w-24 h-auto -rotate-12 opacity-90 drop-shadow-md"
         />
       </div>
-      <div className="absolute bottom-40 right-16 animate-float" style={{ animationDelay: '1.2s' }}>
+      <div className="absolute bottom-24 right-16 animate-float" style={{ animationDelay: '1.2s' }}>
         <img
           src={ASSETS.hearts}
           alt="heart"
