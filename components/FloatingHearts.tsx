@@ -60,14 +60,14 @@ const FloatingHearts: React.FC = () => {
       </div>
 
       {/* Bottom Right Cluster */}
-      <div className="absolute bottom-24 right-8 animate-float" style={{ animationDelay: '2.5s' }}>
+      <div className="absolute bottom-30 right-8 animate-float" style={{ animationDelay: '2.5s' }}>
         <img
           src={ASSETS.hearts}
           alt="heart"
           className="w-24 h-auto -rotate-12 opacity-90 drop-shadow-md"
         />
       </div>
-      <div className="absolute bottom-40 right-16 animate-float" style={{ animationDelay: '1.2s' }}>
+      <div className="absolute bottom-46 right-16 animate-float" style={{ animationDelay: '1.2s' }}>
         <img
           src={ASSETS.hearts}
           alt="heart"
