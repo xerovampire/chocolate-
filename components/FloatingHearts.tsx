@@ -41,7 +41,7 @@ const FloatingHearts: React.FC = () => {
         <img
           src={ASSETS.hearts}
           alt="heart"
-          className="w-28 h-auto rotate-45 opacity-90 drop-shadow-md"
+          className="w-28 h-auto rotate-12 opacity-90 drop-shadow-md"
         />
       </div>
       <div className="absolute bottom-20 left-20 animate-float" style={{ animationDelay: '0.2s' }}>
